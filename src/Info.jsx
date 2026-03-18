@@ -28,7 +28,7 @@ const Info = () => {
             <button type='submit' className="btn btn-info w-full">Add</button>
         </form>
         <div className='flex flex-col gap-4 items-center bg-pink-400 p-4 rounded-2xl w-[80%] mx-auto'>
-            <button onClick={b} className="btn btn-primary">ja beta</button>
+            <button onClick={b} className="btn btn-primary">Clear All</button>
             {
                 arr.map((v,s) => <I1 key={s} {...v}></I1>)
             }
